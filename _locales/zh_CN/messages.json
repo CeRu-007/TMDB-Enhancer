@@ -1,0 +1,194 @@
+{
+  "extensionName": {
+    "message": "TMDB 增强器"
+  },
+  "extensionDescription": {
+    "message": "为TMDB添加外部链接"
+  },
+  "popupTitle": {
+    "message": "TMDB 增强器"
+  },
+  "popupLogo": {
+    "message": "TMDB 增强器"
+  },
+  "popupVisitTMDB": {
+    "message": "访问 TMDB"
+  },
+  "popupSettings": {
+    "message": "设置"
+  },
+  "popupFooter": {
+    "message": "提升您的 TMDB 体验"
+  },
+  "popupStatusActiveMovie": {
+    "message": "✓ 已在电影页面激活"
+  },
+  "popupStatusActiveTV": {
+    "message": "✓ 已在电视剧页面激活"
+  },
+  "popupStatusVisitPage": {
+    "message": "ℹ 请访问电影或电视剧页面"
+  },
+  "popupStatusNotOnTMDB": {
+    "message": "✗ 未在 TMDB 网站上"
+  },
+  "optionsTitle": {
+    "message": "TMDB 增强器设置"
+  },
+  "optionsHeader": {
+    "message": "TMDB 增强器设置"
+  },
+  "optionsSubtitle": {
+    "message": "自定义您的 TMDB 浏览体验"
+  },
+  "optionsSectionExternalLinks": {
+    "message": "外部链接"
+  },
+  "optionsExternalLinksDescription": {
+    "message": "选择在电影和电视剧页面上显示哪些外部链接提供商"
+  },
+  "optionsEnabledLinkProviders": {
+    "message": "启用的链接提供商："
+  },
+  "optionsProviderWikipedia": {
+    "message": "维基百科"
+  },
+  "optionsProviderBaidu": {
+    "message": "百度百科"
+  },
+  "optionsProviderWeibo": {
+    "message": "微博"
+  },
+  "optionsProviderDouban": {
+    "message": "豆瓣"
+  },
+  "optionsProviderIMDb": {
+    "message": "IMDb"
+  },
+  "optionsProviderRottenTomatoes": {
+    "message": "烂番茄"
+  },
+  "optionsProviderMetacritic": {
+    "message": "Metacritic"
+  },
+  "optionsProviderLetterboxd": {
+    "message": "Letterboxd"
+  },
+  "optionsProviderGoogleMovies": {
+    "message": "Google 电影"
+  },
+  "optionsProviderBangumi": {
+    "message": "番组计划"
+  },
+  "optionsCategoryStreaming": {
+    "message": "流媒体平台"
+  },
+  "optionsCategoryStreamingChinese": {
+    "message": "中文流媒体"
+  },
+  "optionsCategoryStreamingInternational": {
+    "message": "国际流媒体"
+  },
+  "optionsCategoryEncyclopedia": {
+    "message": "百科网站"
+  },
+  "optionsCategoryRating": {
+    "message": "评分网站"
+  },
+  "optionsCategorySocial": {
+    "message": "社交媒体"
+  },
+  "optionsCategoryOther": {
+    "message": "其他"
+  },
+  "optionsProviderTencentVideo": {
+    "message": "腾讯视频"
+  },
+  "optionsProviderYouku": {
+    "message": "优酷"
+  },
+  "optionsProviderIQIYI": {
+    "message": "爱奇艺"
+  },
+  "optionsProviderMangoTV": {
+    "message": "芒果TV"
+  },
+  "optionsProviderSohuVideo": {
+    "message": "搜狐视频"
+  },
+  "optionsProviderTudou": {
+    "message": "土豆视频"
+  },
+  "optionsProviderBilibili": {
+    "message": "哔哩哔哩"
+  },
+  "optionsProviderJustWatch": {
+    "message": "JustWatch"
+  },
+  "optionsProviderMyAnimeList": {
+    "message": "MyAnimeList"
+  },
+  "optionsProviderDisneyPlus": {
+    "message": "Disney+"
+  },
+  "optionsProviderAppleTV": {
+    "message": "Apple TV+"
+  },
+  "optionsProviderHulu": {
+    "message": "Hulu"
+  },
+  "optionsProviderTwitter": {
+    "message": "Twitter/X"
+  },
+  "optionsProviderMoegirl": {
+    "message": "萌娘百科"
+  },
+  "optionsProviderBaiduSearch": {
+    "message": "百度搜索"
+  },
+  "optionsProviderGoogleSearch": {
+    "message": "谷歌搜索"
+  },
+  "optionsProviderBingSearch": {
+    "message": "必应搜索"
+  },
+  "optionsCategorySearch": {
+    "message": "搜索引擎"
+  },
+  "optionsProviderNetflix": {
+    "message": "Netflix"
+  },
+  "optionsProviderCrunchyroll": {
+    "message": "Crunchyroll"
+  },
+  "optionsSectionFeatures": {
+    "message": "功能"
+  },
+  "optionsFeaturesDescription": {
+    "message": "启用或禁用特定的增强功能"
+  },
+  "optionsShowExternalLinks": {
+    "message": "显示外部链接"
+  },
+  "optionsInfoTitle": {
+    "message": "工作原理"
+  },
+  "optionsInfoPoint1": {
+    "message": "• 外部链接将显示在电影/电视剧标题下方"
+  },
+  "optionsInfoPoint3": {
+    "message": "• 所有功能都设计为与 TMDB 的视觉风格相匹配"
+  },
+  "optionsSaveSettings": {
+    "message": "保存设置"
+  },
+  "optionsResetToDefault": {
+    "message": "重置为默认"
+  },
+  "optionsMessageSaved": {
+    "message": "设置保存成功！"
+  },
+  "optionsMessageReset": {
+    "message": "设置已重置为默认！"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "1.0.0",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  
+  "host_permissions": [
+    "*://www.themoviedb.org/*",
+    "*://api.themoviedb.org/*"
+  ],
+  
+  "background": {
+    "service_worker": "background/service-worker.js"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.themoviedb.org/movie/*",
+        "*://www.themoviedb.org/tv/*"
+      ],
+      "js": [
+        "content/utils/dom-helper.js",
+        "content/utils/fetch-helper.js",
+        "lib/site-adapters/base.js",
+        "lib/site-adapters/tmdb.js",
+        "lib/link-providers/base.js",
+        "lib/link-providers/streaming/chinese/tencentvideo.js",
+        "lib/link-providers/streaming/chinese/youku.js",
+        "lib/link-providers/streaming/chinese/iqiyi.js",
+        "lib/link-providers/streaming/chinese/mangotv.js",
+        "lib/link-providers/streaming/chinese/sohuvideo.js",
+        "lib/link-providers/streaming/chinese/tudou.js",
+        "lib/link-providers/streaming/chinese/bilibili.js",
+        "lib/link-providers/streaming/international/netflix.js",
+        "lib/link-providers/streaming/international/crunchyroll.js",
+        "lib/link-providers/streaming/international/disneyplus.js",
+        "lib/link-providers/streaming/international/appletv.js",
+        "lib/link-providers/streaming/international/hulu.js",
+        "lib/link-providers/encyclopedia/wikipedia.js",
+        "lib/link-providers/encyclopedia/baidu.js",
+        "lib/link-providers/encyclopedia/moegirl.js",
+        "lib/link-providers/rating/douban.js",
+        "lib/link-providers/rating/imdb.js",
+        "lib/link-providers/rating/rottentomatoes.js",
+        "lib/link-providers/rating/metacritic.js",
+        "lib/link-providers/rating/letterboxd.js",
+        "lib/link-providers/rating/myanimelist.js",
+        "lib/link-providers/social/weibo.js",
+        "lib/link-providers/social/twitter.js",
+        "lib/link-providers/other/googlemovies.js",
+        "lib/link-providers/other/bangumi.js",
+        "lib/link-providers/other/justwatch.js",
+        "lib/link-providers/search/baidusearch.js",
+        "lib/link-providers/search/googlesearch.js",
+        "lib/link-providers/search/bingsearch.js",
+        "content/tmdb.js"
+      ],
+      "css": [
+        "content/styles.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  },
+  
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*.png"],
+      "matches": ["*://www.themoviedb.org/*"]
+    }
+  ]
+}

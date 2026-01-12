@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="popupTitle">TMDB Enhancer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: #032541;
+      color: #fff;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: bold;
+      color: #01b4e4;
+      margin-bottom: 5px;
+    }
+
+    .version {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #01b4e4;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #0099c9;
+    }
+
+    .button.secondary {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .button.secondary:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .status {
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 4px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .status.active {
+      color: #4ade80;
+    }
+
+    .status.inactive {
+      color: #f87171;
+    }
+
+    .footer {
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: center;
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo" data-i18n="popupLogo">TMDB Enhancer</div>
+    <div class="version">v1.0.0</div>
+  </div>
+
+  <div class="content">
+    <div id="status" class="status">Checking status...</div>
+
+    <a href="https://www.themoviedb.org" target="_blank" class="button">
+      <span data-i18n="popupVisitTMDB">Visit TMDB</span>
+    </a>
+
+    <button id="optionsBtn" class="button secondary">
+      <span data-i18n="popupSettings">Settings</span>
+    </button>
+  </div>
+
+  <div class="footer" data-i18n="popupFooter">
+    Enhance your TMDB experience
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

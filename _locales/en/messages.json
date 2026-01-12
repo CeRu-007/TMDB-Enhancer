@@ -1,0 +1,194 @@
+{
+  "extensionName": {
+    "message": "TMDB Enhancer"
+  },
+  "extensionDescription": {
+    "message": "Enhance TMDB with external links"
+  },
+  "popupTitle": {
+    "message": "TMDB Enhancer"
+  },
+  "popupLogo": {
+    "message": "TMDB Enhancer"
+  },
+  "popupVisitTMDB": {
+    "message": "Visit TMDB"
+  },
+  "popupSettings": {
+    "message": "Settings"
+  },
+  "popupFooter": {
+    "message": "Enhance your TMDB experience"
+  },
+  "popupStatusActiveMovie": {
+    "message": "✓ Active on movie page"
+  },
+  "popupStatusActiveTV": {
+    "message": "✓ Active on TV page"
+  },
+  "popupStatusVisitPage": {
+    "message": "ℹ Visit a movie or TV page"
+  },
+  "popupStatusNotOnTMDB": {
+    "message": "✗ Not on TMDB"
+  },
+  "optionsTitle": {
+    "message": "TMDB Enhancer Settings"
+  },
+  "optionsHeader": {
+    "message": "TMDB Enhancer Settings"
+  },
+  "optionsSubtitle": {
+    "message": "Customize your TMDB browsing experience"
+  },
+  "optionsSectionExternalLinks": {
+    "message": "External Links"
+  },
+  "optionsExternalLinksDescription": {
+    "message": "Choose which external link providers to display on movie and TV pages"
+  },
+  "optionsEnabledLinkProviders": {
+    "message": "Enabled Link Providers:"
+  },
+  "optionsProviderWikipedia": {
+    "message": "Wikipedia"
+  },
+  "optionsProviderBaidu": {
+    "message": "Baidu Baike"
+  },
+  "optionsProviderWeibo": {
+    "message": "Weibo"
+  },
+  "optionsProviderDouban": {
+    "message": "Douban"
+  },
+  "optionsProviderIMDb": {
+    "message": "IMDb"
+  },
+  "optionsProviderRottenTomatoes": {
+    "message": "Rotten Tomatoes"
+  },
+  "optionsProviderMetacritic": {
+    "message": "Metacritic"
+  },
+  "optionsProviderLetterboxd": {
+    "message": "Letterboxd"
+  },
+  "optionsProviderGoogleMovies": {
+    "message": "Google Movies"
+  },
+  "optionsProviderBangumi": {
+    "message": "Bangumi"
+  },
+  "optionsCategoryStreaming": {
+    "message": "Streaming Platforms"
+  },
+  "optionsCategoryStreamingChinese": {
+    "message": "Chinese Streaming"
+  },
+  "optionsCategoryStreamingInternational": {
+    "message": "International Streaming"
+  },
+  "optionsCategoryEncyclopedia": {
+    "message": "Encyclopedia"
+  },
+  "optionsCategoryRating": {
+    "message": "Rating Sites"
+  },
+  "optionsCategorySocial": {
+    "message": "Social Media"
+  },
+  "optionsCategoryOther": {
+    "message": "Other"
+  },
+  "optionsProviderTencentVideo": {
+    "message": "Tencent Video"
+  },
+  "optionsProviderYouku": {
+    "message": "Youku"
+  },
+  "optionsProviderIQIYI": {
+    "message": "iQIYI"
+  },
+  "optionsProviderMangoTV": {
+    "message": "Mango TV"
+  },
+  "optionsProviderSohuVideo": {
+    "message": "Sohu Video"
+  },
+  "optionsProviderTudou": {
+    "message": "Tudou"
+  },
+  "optionsProviderBilibili": {
+    "message": "Bilibili"
+  },
+  "optionsProviderJustWatch": {
+    "message": "JustWatch"
+  },
+  "optionsProviderMyAnimeList": {
+    "message": "MyAnimeList"
+  },
+  "optionsProviderDisneyPlus": {
+    "message": "Disney+"
+  },
+  "optionsProviderAppleTV": {
+    "message": "Apple TV+"
+  },
+  "optionsProviderHulu": {
+    "message": "Hulu"
+  },
+  "optionsProviderTwitter": {
+    "message": "Twitter/X"
+  },
+  "optionsProviderMoegirl": {
+    "message": "Moegirl"
+  },
+  "optionsProviderBaiduSearch": {
+    "message": "Baidu Search"
+  },
+  "optionsProviderGoogleSearch": {
+    "message": "Google Search"
+  },
+  "optionsProviderBingSearch": {
+    "message": "Bing Search"
+  },
+  "optionsCategorySearch": {
+    "message": "Search Engines"
+  },
+  "optionsProviderNetflix": {
+    "message": "Netflix"
+  },
+  "optionsProviderCrunchyroll": {
+    "message": "Crunchyroll"
+  },
+  "optionsSectionFeatures": {
+    "message": "Features"
+  },
+  "optionsFeaturesDescription": {
+    "message": "Enable or disable specific enhancement features"
+  },
+  "optionsShowExternalLinks": {
+    "message": "Show External Links"
+  },
+  "optionsInfoTitle": {
+    "message": "How It Works"
+  },
+  "optionsInfoPoint1": {
+    "message": "• External links will appear below the movie/TV title"
+  },
+  "optionsInfoPoint3": {
+    "message": "• All features are designed to match TMDB's visual style"
+  },
+  "optionsSaveSettings": {
+    "message": "Save Settings"
+  },
+  "optionsResetToDefault": {
+    "message": "Reset to Default"
+  },
+  "optionsMessageSaved": {
+    "message": "Settings saved successfully!"
+  },
+  "optionsMessageReset": {
+    "message": "Settings reset to default!"
+  }
+}

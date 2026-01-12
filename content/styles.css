@@ -1,0 +1,64 @@
+.tmdb-enhancer-wrapper {
+  width: 100%;
+  margin: 15px 0;
+  clear: both;
+  display: block;
+}
+
+.tmdb-enhancer-links {
+  width: 100%;
+  margin: 12px 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+.tmdb-enhancer-links-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.tmdb-enhancer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background-color: #032541;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.tmdb-enhancer-link span {
+  color: #fff !important;
+}
+
+.tmdb-enhancer-link:hover {
+  background-color: #01b4e4;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tmdb-enhancer-link img {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .tmdb-enhancer-links-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tmdb-enhancer-link {
+    justify-content: center;
+  }
+}

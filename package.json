@@ -1,0 +1,26 @@
+{
+  "name": "tmdb-enhancer",
+  "version": "1.0.0",
+  "description": "Enhance TMDB with external links",
+  "main": "background/service-worker.js",
+  "scripts": {
+    "build": "echo 'No build process required for this extension'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "tmdb",
+    "movie",
+    "tv",
+    "extension",
+    "chrome-extension",
+    "browser-extension"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
