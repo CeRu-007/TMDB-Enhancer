@@ -23,7 +23,7 @@ class TMDBEnhancer {
       GoogleMoviesProvider, BangumiProvider, TencentVideoProvider, YoukuProvider,
       IQIYIProvider, MangoTVProvider, SohuVideoProvider, TudouProvider,
       NetflixProvider, CrunchyrollProvider, BilibiliProvider,
-      JustWatchProvider, MyAnimeListProvider, DisneyPlusProvider, AppleTVProvider,
+      JustWatchProvider, TVDBProvider, MyAnimeListProvider, DisneyPlusProvider, AppleTVProvider,
       HuluProvider, TwitterProvider, MoegirlProvider, BaiduSearchProvider,
       GoogleSearchProvider, BingSearchProvider
     ];

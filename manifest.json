@@ -55,6 +55,7 @@
         "lib/link-providers/social/weibo.js",
         "lib/link-providers/social/twitter.js",
         "lib/link-providers/other/googlemovies.js",
+        "lib/link-providers/other/tvdb.js",
         "lib/link-providers/other/bangumi.js",
         "lib/link-providers/other/justwatch.js",
         "lib/link-providers/search/baidusearch.js",

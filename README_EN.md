@@ -32,6 +32,7 @@ Automatically adds quick links on movie and TV show pages for easy access to oth
 - **Weibo** - Check social media discussions
 - **Google Movies** - Google movie information
 - **Bangumi** - Bangumi anime database
+- **TVDB** - TV show database
 
 ### 2. Multi-language Support
 Supports multiple language interfaces, automatically adapts to TMDB language settings.

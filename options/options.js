@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     collapsedCategories: []
   };
 
-  const allProviders = ['wikipedia', 'baidu', 'weibo', 'douban', 'imdb', 'rottentomatoes', 'metacritic', 'letterboxd', 'googlemovies', 'bangumi', 'tencentvideo', 'youku', 'iqiyi', 'mangotv', 'sohuvideo', 'tudou', 'netflix', 'crunchyroll', 'bilibili', 'justwatch', 'myanimelist', 'disneyplus', 'appletv', 'hulu', 'twitter', 'moegirl', 'baidusearch', 'googlesearch', 'bingsearch'];
+  const allProviders = ['wikipedia', 'baidu', 'weibo', 'douban', 'imdb', 'rottentomatoes', 'metacritic', 'letterboxd', 'googlemovies', 'tvdb', 'bangumi', 'tencentvideo', 'youku', 'iqiyi', 'mangotv', 'sohuvideo', 'tudou', 'netflix', 'crunchyroll', 'bilibili', 'justwatch', 'myanimelist', 'disneyplus', 'appletv', 'hulu', 'twitter', 'moegirl', 'baidusearch', 'googlesearch', 'bingsearch'];
 
   function loadSettings() {
     chrome.storage.sync.get(defaultSettings, (settings) => {
