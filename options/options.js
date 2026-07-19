@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       chrome.tabs.query({}, (tabs) => {
         tabs.forEach(tab => {
-          if (tab.url.includes('themoviedb.org')) {
+          if (tab.url?.includes('themoviedb.org')) {
             chrome.tabs.sendMessage(tab.id, { action: 'reload' });
           }
         });
